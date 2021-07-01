@@ -1,6 +1,6 @@
 /**
  ****************************************************************************
- * Purpose:This is a POJO for Invoice Summary
+ * Purpose:This is a POJO for Invoice Summary.
  *
  * @author Dhiraj and Naziya
  * @version 1.0
