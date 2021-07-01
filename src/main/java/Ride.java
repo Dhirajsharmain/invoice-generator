@@ -1,5 +1,15 @@
+/**
+ ****************************************************************************
+ * Purpose:This is a POJO for Rides
+ *
+ * @author Dhiraj and Naziya
+ * @version 1.0
+ * @since 01-07-2021
+ ****************************************************************************
+ */
+
 public class Ride {
-	
+
 	public final int time;
 	public double distance;
 
@@ -15,4 +25,5 @@ public class Ride {
 	public double getDistance() {
 		return distance;
 	}
+
 }
