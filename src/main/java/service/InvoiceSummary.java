@@ -1,3 +1,5 @@
+package service;
+
 /**
  ****************************************************************************
  * Purpose:This is a POJO for Invoice Summary.

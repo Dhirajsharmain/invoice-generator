@@ -8,9 +8,12 @@
  ****************************************************************************
  */
 
+import model.Ride;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+import service.CabInvoiceGenerator;
+import service.InvoiceSummary;
 
 public class CabInvoiceGeneratorTest {
 	CabInvoiceGenerator cabInvoiceGenerator = null;

@@ -1,3 +1,7 @@
+package service;
+
+import model.Ride;
+
 /**
  ****************************************************************************
  * Purpose:This is a cab invoice generator class
