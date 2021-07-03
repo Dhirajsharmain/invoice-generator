@@ -19,7 +19,7 @@ public class CabInvoiceGeneratorTest {
 	CabInvoiceGenerator cabInvoiceGenerator = null;
 
 	@Before
-	public void setup() throws Exception {
+	public void setup() {
 		cabInvoiceGenerator = new CabInvoiceGenerator();
 	}
 

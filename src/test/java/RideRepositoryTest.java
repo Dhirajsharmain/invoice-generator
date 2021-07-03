@@ -1,5 +1,8 @@
 
+import model.Ride;
+import org.junit.Assert;
 import org.junit.Before;
+import org.junit.Test;
 import service.RideRepository;
 
 public class RideRepositoryTest {
@@ -10,4 +13,13 @@ public class RideRepositoryTest {
         rideRepository = new RideRepository();
     }
 
+    @Test
+    public void givenUserId_shouldReturnListOfRides() {
+        Ride[] userRides = { new Ride(2.0, 5), new Ride(0.1, 1) };
+        String userId = "Dhiraj";
+        rideRepository.addRides(userId, userRides);
+        Ride[] ridesList = rideRepository.getRides(userId);
+        Assert.assertEquals(userRides[0], ridesList[0]);
+        Assert.assertEquals(userRides[1], ridesList[1]);
+    }
 }
